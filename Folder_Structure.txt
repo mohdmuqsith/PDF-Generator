@@ -1,0 +1,30 @@
+backend/
+  app/
+    api/
+      health.py
+      reports.py
+    core/
+      config.py
+    db/
+      database.py
+      seed.py
+    reports/
+      queries.py
+      renderer.py
+    main.py
+  reports/
+  requirements.txt
+
+frontend/
+  src/
+    api/
+      reports.js
+    components/
+      ReportList.jsx
+    App.jsx
+    main.jsx
+  index.html
+  package.json
+
+README.md
+.gitignore
