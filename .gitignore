@@ -11,4 +11,6 @@ frontend/dist/
 
 .env
 
+*.pdf
+
 descriptions.pdf
