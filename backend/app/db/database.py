@@ -1,12 +1,17 @@
 import sqlite3
+from contextlib import contextmanager
 
 from app.core.config import DATABASE_PATH
 
 
+@contextmanager
 def get_connection():
     connection = sqlite3.connect(DATABASE_PATH)
     connection.row_factory = sqlite3.Row
-    return connection
+    try:
+        yield connection
+    finally:
+        connection.close()
 
 
 def initialize_database():
