@@ -354,13 +354,13 @@ different backend.
 
 ---
 
-## Roadmap
+## things yet to try 
 
-- Date-range selection instead of always reporting "today"
+
 - Background job + polling for report generation
 - Charts in the PDF (currently tables only)
 - Auth around the API
-- Dockerfile / compose setup for one-command startup
+
 
 ---
 
